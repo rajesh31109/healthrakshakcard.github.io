@@ -1,0 +1,66 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            
+        }
+        .card h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em; /* Big heading size */
+        }
+        .radio-group {
+            margin-bottom: 15px;
+        }
+        .radio-group input {
+            margin-right: 10px;
+        }
+        .radio-group input {
+            margin-right: 10px;
+        }
+
+
+        .form-container {
+        
+            margin-top: 20px;
+        }
+        .form-container.active {
+            display: block; /* Show the active form */
+        }
+        .credentials-box {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid #0073e6;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color:white;
+        }
+        .credentials-box h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .credentials-box label {
+            font-weight: bold;
+        }
+        .credentials-box input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .credentials-box input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #0073e6;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .credentials-box input[type="submit"]:hover {
+            background-color: #005bb5;
+        }
