@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("../index-bg.jpeg");
+    background-image: url("./bg.jpg");
     background-size:cover;
 
     
