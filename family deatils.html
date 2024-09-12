@@ -33,12 +33,26 @@
             padding: 10px;
             box-sizing: border-box;
         }
-        .radio-group {
-            margin-bottom: 20px;
+
+        .radio-group
+        {
+            margin-top: 4px;
+            margin-bottom: 6px;
         }
-        .radio-group input {
-            margin-right: 10px;
+        
+        .f-link
+        {
+            text-decoration: none;
+            color: black;
+            border: 2px solid gray;
+            padding: 2px;
+            border-radius: 4px;
+            margin-left: 5px;
+
         }
+
+
+
     </style>
 </head>
 <body>
@@ -66,15 +80,21 @@
         </div>
         
         <div class="radio-group">
-            <label>Family Details:</label>
+            <!-- <label>Family Details:</label>
             <input type="select" id="father" name="family" value="father" onclick="go();">
-            <label for="father">Father<+/label>
+            <label for="father">Father</label>
             <input type="radio" id="mother" name="family" value="mother"onclick="go();">
             <label for="mother">Mother</label>
             <input type="radio" id="child1" name="family" value="child1" onclick="go();">
             <label for="child1">Child 1</label>
             <input type="radio" id="child2" name="family" value="child2" onclick="go();">
-            <label for="child2">Child 2</label>
+            <label for="child2">Child 2</label> -->
+
+
+            <a href="../prep/prep.html" class="f-link">Father</a>
+            <a href="../prep/prep.html" class="f-link">Mother</a>
+            <a href="../prep/prep.html" class="f-link">Child-1</a>
+            <a href="../prep/prep.html" class="f-link">Child-2</a>
         </div>
         
         <div id="familyDetails">
