@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button Example</title>
+    <style>
+        .hidden { display: none; }
+         .raj-h1{
+            text-align:center;
+            
+}
+    </style>
+</head>
+<body>
+    <h1 class="raj-h1">Select an Option</h1>
+    <label>
+        <input type="radio" name="selection" value="govt_schemes" id="govtSchemes"> Govt Schemes
+    </label>
+   
+    <div id="secondPage" class="hidden">
+        
+        <p>no schemes are available to patient</p>
+    </div>
+
+    <script>
+        document.querySelectorAll('input[name="selection"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+                const secondPage = document.getElementById('secondPage');
+                
+                if (document.getElementById('govtSchemes').checked) {
+                    // Replace the following condition with the actual check for available schemes
+                    const schemesAvailable = true; // Example condition
+                    
+                    if (schemesAvailable) {
+                        secondPage.classList.remove('hidden');
+                    } else {
+                        secondPage.classList.add('hidden');
+                    }
+                } else {
+                    secondPage.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
